@@ -3,9 +3,9 @@ let nota=prompt("Ingrese su nota: ");
 while(isNaN(nota)||nota===""||nota>=11||nota<0||/\s/.test(nota)){
     alert("Porfavor Ingrese un numero que sea menor a 11");
     nota=prompt("Ingrese su nota: ");
-    if (isNaN(nota)||nota===""||nota>=11&&nota===undefined){
+    if (isNaN(nota)||nota===""||nota>=11||nota<0||/\s/.test(nota)){
         continue;
-    }
+    }           /*test*/
     else{
         break;
     }
