@@ -10,6 +10,6 @@ do{
         document.write(numero+" ,");
         total=total+parseInt(numero);
     }
-}while(confirm("continuar?"));
+}while(confirm("Desea continuar?"));
 
 document.write("<br>Da como resultado= "+total);
